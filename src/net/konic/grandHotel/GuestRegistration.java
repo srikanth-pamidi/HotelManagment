@@ -13,9 +13,10 @@ public class GuestRegistration {
 		this.phone = p;
 
 		if (phone.length() == 10) {
-			System.out.println("Guest Registered Successfully");
+			
 			System.out.println("Name: " + n);
 			System.out.println("Phone: " + p);
+			System.out.println("Guest Registered Successfully");
 		} else {
 			System.out.println("Invalid Phone Number.");
 		}

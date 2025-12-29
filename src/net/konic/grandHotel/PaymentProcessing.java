@@ -16,6 +16,14 @@ public class PaymentProcessing implements Payment {
      System.out.println("Amount Paid: " +amount);
  }
 
+ public class CashPayment implements Payment {
+
+	  
+	    public void pay(int amount) {
+	        System.out.println("Payment Successful using CASH");
+	        System.out.println("Amount Paid: " + amount);
+	    }
+	}
  public static void main(String[] args) {
 
      Scanner sc = new Scanner(System.in);
